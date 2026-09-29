@@ -1,0 +1,12 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Generated data (recreate with scripts/clean_netflix_data.py)
+data/clean/
+
+# Local secrets and OS files
+.env
+.DS_Store

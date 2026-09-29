@@ -1,0 +1,10 @@
+query,edges,pg_cold_ms,pg_warm_avg_ms,pg_warm_median_ms,pg_rows,neo4j_cold_ms,neo4j_warm_avg_ms,neo4j_warm_median_ms,neo4j_rows,pg_naive_cold_ms,pg_naive_warm_avg_ms,pg_naive_warm_median_ms,pg_naive_rows
+Q1_shows_by_genre,1,35.7,2.46,2.38,869,1902.5,29.09,28.09,869,,,,
+Q2_cast_of_show,1,31.84,0.37,0.33,10,1657.3,7.39,6.45,10,,,,
+Q3_directors_who_also_acted,2,126.7,12.46,12.17,355,1981.75,54.69,47.1,355,,,,
+Q4_actors_at_3_hops,6,329.42,118.91,118.18,13326,2364.12,232.39,215.91,13326,,,,
+Q5a_degrees_of_separation_dist1,2,36.27,0.69,0.63,1,1751.68,6.35,5.32,1,43.12,7.19,7.26,1
+Q5b_degrees_of_separation_dist2,4,155.48,6.88,4.78,1,1720.95,6.24,5.59,1,294.25,148.59,148.61,1
+Q5c_degrees_of_separation_dist3,6,225.35,59.32,59.74,1,1821.73,6.95,6.02,1,5043.29,4852.6,4842.14,1
+Q5d_degrees_of_separation_dist4,8,397.03,206.66,206.69,1,1758.24,6.61,6.05,1,,,,
+Q5e_degrees_of_separation_dist5,10,537.35,361.5,361.47,1,1808.01,7.07,6.3,1,,,,
